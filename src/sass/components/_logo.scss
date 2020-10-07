@@ -1,0 +1,12 @@
+.logo {
+  fill: white;
+  display: flex;
+
+  @media screen and (min-width: $tablet) {
+    fill: black;
+    margin-right: 64px;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-right: 70px;
+  }
+}

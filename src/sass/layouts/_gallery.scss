@@ -1,0 +1,35 @@
+// .gallery-wrap {
+//   height: 360px;
+// }
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  padding: 15px;
+}
+
+.img-wrapper {
+  overflow: hidden;
+  // width: 418px;
+  // height: 360px;
+
+
+  // @media screen and (min-width: $tablet) {
+  //   width: 329px;
+  //   height: 360px;
+  // }
+
+  // @media screen and (min-width: $desktop) {
+  //   width: 270px;
+  //   height: 360px;
+  // }
+}
+
+.gallery-description {
+  margin-bottom: 44px;
+}
